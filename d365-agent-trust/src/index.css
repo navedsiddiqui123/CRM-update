@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ms-blue:    #0078D4;
+  --ms-dark:    #003A6C;
+  --ms-navy:    #001F3D;
+  --ms-teal:    #00B294;
+  --ms-orange:  #D83B01;
+  --ms-amber:   #FFB900;
+  --ms-green:   #107C10;
+  --ms-red:     #A4262C;
+  --ms-surface: #F8FAFC;
+  --ms-border:  #E1E8EF;
+  --ms-muted:   #5A6472;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--ms-surface);
+  color: #1a2332;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+.pulse-dot { animation: pulse-dot 1.8s ease-in-out infinite; }
+
+.rationale-enter { max-height: 0; overflow: hidden; opacity: 0; }
+.rationale-open  { max-height: 1200px; opacity: 1; transition: max-height 0.3s ease-in-out, opacity 0.2s ease; }
+.rationale-closed { max-height: 0; overflow: hidden; opacity: 0; transition: max-height 0.3s ease-in-out, opacity 0.2s ease; }
