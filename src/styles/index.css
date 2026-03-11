@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ms-blue:    #0078D4;
+  --ms-dark:    #003A6C;
+  --ms-navy:    #001F3D;
+  --ms-teal:    #00B294;
+  --ms-orange:  #D83B01;
+  --ms-amber:   #C79B00;
+  --ms-green:   #107C10;
+  --ms-red:     #A4262C;
+  --ms-purple:  #6B52A0;
+  --ms-surface: #F8FAFC;
+  --ms-border:  #E1E8EF;
+  --ms-muted:   #5A6472;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1);   }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+
+.pulse-dot {
+  animation: pulse-dot 1.8s ease-in-out infinite;
+}
+
+.rationale-enter {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.rationale-open {
+  max-height: 1400px;
+  opacity: 1;
+  transition: max-height 0.3s ease-in-out, opacity 0.2s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
