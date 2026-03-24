@@ -107,7 +107,7 @@ It maps to three converging forces in 2026:
 
 ## Prototype Screenshots
 
-![Agent Explainability 1](docs/Agent Activity 1.png)
-![Agent Explainability 2](docs/Agent Activity 2.png)
-![Supervisor Dashboard 1](docs/Manager Review Dasboard.png)
-![Supervisor Dashboard 2](docs/Manager Review Dasboard 2.png)
+![Agent Explainability 1](docs/Agent%20Activity%201.png)
+![Agent Explainability 2](docs/Agent%20Activity%202.png)
+![Supervisor Dashboard 1](docs/Manager%20Review%20Dasboard.png)
+![Supervisor Dashboard 2](docs/Manager%20Review%20Dasboard%202.png)
