@@ -107,4 +107,7 @@ It maps to three converging forces in 2026:
 
 ## Prototype Screenshots
 
-See `/docs` folder or the full spec document for annotated UI screenshots of the Case Workspace and Supervisor Dashboard views.
+![Agent Explainability 1](docs/Agent Activity 1.png)
+![Agent Explainability 2](docs/Agent Activity 2.png)
+![Supervisor Dashboard 1](docs/Manager Review Dasboard.png)
+![Supervisor Dashboard 2](docs/Manager Review Dasboard 2.png)
